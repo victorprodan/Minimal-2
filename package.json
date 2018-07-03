@@ -1,0 +1,80 @@
+{
+  "name": "Minimal",
+  "version": "1.2.2",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "eslint": "FILES=`git diff --name-only --cached --relative | grep '\\.js$'`; if test -z \"$FILES\"; then exit 0; fi; node_modules/.bin/eslint $FILES",
+    "precommit": "lint-staged",
+    "storybook": "storybook start -p 7007"
+  },
+  "dependencies": {
+    "appcenter": "1.5.0",
+    "appcenter-analytics": "1.5.0",
+    "appcenter-crashes": "1.5.0",
+    "axios": "0.18.0",
+    "jshashes": "1.0.7",
+    "jsonapi-datastore": "0.4.0-beta",
+    "lottie-react-native": "2.3.2",
+    "moment": "2.22.1",
+    "prop-types": "15.6.1",
+    "pushwoosh-react-native-plugin": "5.5.7",
+    "ramda": "0.25.0",
+    "react": "16.3.1",
+    "react-native": "0.55.3",
+    "react-native-360": "^1.0.9",
+    "react-native-action-button": "^2.8.4",
+    "react-native-actioncable": "0.0.3",
+    "react-native-camera": "1.1.2",
+    "react-native-config": "0.11.5",
+    "react-native-dropdownalert": "3.4.0",
+    "react-native-elements": "0.19.1",
+    "react-native-fbsdk": "0.7.0",
+    "react-native-fetch-blob": "0.10.8",
+    "react-native-flip-menu": "^0.1.1",
+    "react-native-image-picker": "0.26.7",
+    "react-native-micro-animated-button": "^0.0.27",
+    "react-native-modal": "5.4.0",
+    "react-native-photo-view": "1.5.2",
+    "react-native-progress": "3.4.0",
+    "react-native-smart-splash-screen": "2.3.5",
+    "react-native-snap-carousel": "^3.7.0",
+    "react-native-vector-icons": "^4.6.0",
+    "react-native-video": "2.0.0",
+    "react-native-video-player": "0.9.1",
+    "react-navigation": "1.5.11",
+    "react-navigation-redux-helpers": "1.0.5",
+    "react-redux": "5.0.7",
+    "redux": "3.7.2",
+    "redux-devtools-extension": "2.13.2",
+    "redux-logger": "3.0.6",
+    "redux-persist": "5.9.1",
+    "redux-saga": "0.16.0",
+    "reduxsauce": "0.7.0"
+  },
+  "devDependencies": {
+    "@storybook/react-native": "3.4.3",
+    "babel-eslint": "8.2.3",
+    "babel-preset-react-native": "4.0.0",
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-react-native": "3.2.1",
+    "husky": "0.14.3",
+    "lint-staged": "7.1.0",
+    "prettier": "1.12.1",
+    "solidarity": "2.1.0",
+    "solidarity-react-native": "2.0.2"
+  },
+  "lint-staged": {
+    "*.js": [
+      "prettier --single-quote --print-width=120 --write",
+      "git add",
+      "eslint"
+    ]
+  },
+  "rnpm": {
+    "assets": [
+      "src/theme/fonts"
+    ]
+  }
+}

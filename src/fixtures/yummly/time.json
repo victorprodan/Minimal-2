@@ -1,0 +1,9 @@
+[
+  { "name": "5 minutes", "value": 300, "type": "time" },
+  { "name": "10 minutes", "value": 600, "type": "time" },
+  { "name": "15 minutes", "value": 900, "type": "time" },
+  { "name": "30 minutes", "value": 1800, "type": "time" },
+  { "name": "45 minutes", "value": 2700, "type": "time" },
+  { "name": "1 hour", "value": 3600, "type": "time" },
+  { "name": "2 hours", "value": 7200, "type": "time" }
+]

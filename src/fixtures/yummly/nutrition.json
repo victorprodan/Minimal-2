@@ -1,0 +1,72 @@
+[
+  {
+    "id": "nutrition-low-carb",
+    "name": "Low Carb",
+    "type": "nutrition",
+    "description": "Low Carb",
+    "searchValue": "nutrition^nutrition-low-carb",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.CHOCDF.max",
+    "numberOf": 30
+  },
+  {
+    "id": "nutrition-low-sugar",
+    "name": "Low Sugar",
+    "type": "nutrition",
+    "description": "Low Sugar",
+    "searchValue": "nutrition^nutrition-low-sugar",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.SUGAR.max",
+    "numberOf": 10
+  },
+  {
+    "id": "nutrition-low-sodium",
+    "name": "Low Sodium",
+    "type": "nutrition",
+    "description": "Low Sodium",
+    "searchValue": "nutrition^nutrition-low-sodium",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.NA.max",
+    "numberOf": 0.5
+  },
+  {
+    "id": "nutrition-high-fiber",
+    "name": "High Fiber",
+    "type": "nutrition",
+    "description": "High Fiber",
+    "searchValue": "nutrition^nutrition-high-fiber",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.FIBTG.min",
+    "numberOf": 6
+  },
+  {
+    "id": "nutrition-low-calorie",
+    "name": "Low Calorie",
+    "type": "nutrition",
+    "description": "Low Calorie",
+    "searchValue": "nutrition^nutrition-low-calorie",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.ENERC_KCAL.max",
+    "numberOf": 400
+  },
+  {
+    "id": "nutrition-low-fat",
+    "name": "Low Fat",
+    "type": "nutrition",
+    "description": "Low Fat",
+    "searchValue": "nutrition^nutrition-low-fat",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.FAT.max",
+    "numberOf": 10
+  },
+  {
+    "id": "nutrition-high-protein",
+    "name": "High Protein",
+    "type": "nutrition",
+    "description": "High Protein",
+    "searchValue": "nutrition^nutrition-high-protein",
+    "localesAvailableIn": ["en-US"],
+    "search": "nutrition.PROCNT.min",
+    "numberOf": 30
+  }
+]

@@ -1,0 +1,20 @@
+engines:
+  eslint:
+    enabled: true
+  duplication:
+    enabled: false
+    config:
+      languages:
+      - javascript
+  fixme:
+    enabled: true
+ratings:
+  paths:
+  - 'src/**/*.js'
+exclude_paths:
+- android/**/*
+- ios/**/*
+- '*.json'
+- yarn.lock
+- src/theme/images/*
+- tests/**/*

@@ -1,0 +1,37 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": ["react", "react-native"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "rules": {
+    "react-native/split-platform-components": 2,
+    "react/display-name": 0,
+    "semi": ["error", "always"],
+    "space-before-function-paren": ["error", "never"],
+    "arrow-body-style": ["error", "as-needed"],
+    "arrow-spacing": [
+      "error",
+      {
+        "before": true,
+        "after": true
+      }
+    ],
+    "prefer-const": 2
+  },
+  "globals": {
+    "require": true,
+    "__DEV__": true,
+    "global": true,
+    "module": true
+  }
+}

@@ -74,7 +74,7 @@ const CommentReply = props => (
             <TouchableOpacity
               style={styles.commentsContainer}
               hitSlop={{ top: 17, bottom: 17, left: 10, right: 10 }}
-              onPress={() => props.onlikeCountPress(props.reply)}
+              onPress={() => props.onLikeCountPress(props.reply)}
             >
               <theme.Icon name="like" size={13} color={theme.colors.grey} />
               <Text style={styles.commentsText}>{props.reply.likes.length}</Text>
@@ -110,9 +110,9 @@ const ReplyList = props => (
               <CommentReply
                 key={reply.id}
                 reply={reply}
-                onlike={() => props.onReplylike(reply)}
+                onlike={() => props.onReplyLike(reply)}
                 onProfilePress={() => props.onProfilePress(reply.user)}
-                onlikeCountPress={props.onlikeCountPress}
+                onLikeCountPress={props.onLikeCountPress}
                 onAction={props.onAction}
                 currentUser={props.currentUser}
               />
@@ -130,7 +130,7 @@ CommentReply.propTypes = {
   onProfilePress: PropTypes.func.isRequired,
   onAction: PropTypes.func.isRequired,
   currentUser: PropTypes.object.isRequired,
-  onlikeCountPress: PropTypes.func.isRequired
+  onLikeCountPress: PropTypes.func.isRequired
 };
 
 ReplyList.propTypes = {
@@ -140,8 +140,8 @@ ReplyList.propTypes = {
   currentUser: PropTypes.object.isRequired,
   postsDetailsLoading: PropTypes.bool.isRequired,
   onRefreshPostDetails: PropTypes.func.isRequired,
-  onReplylike: PropTypes.func.isRequired,
-  onlikeCountPress: PropTypes.func.isRequired
+  onReplyLike: PropTypes.func.isRequired,
+  onLikeCountPress: PropTypes.func.isRequired
 };
 
 CommentReply.EDIT = 'Reply.edit';

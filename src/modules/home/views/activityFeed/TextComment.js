@@ -104,7 +104,7 @@ const Comment = props =>
                 <TouchableOpacity
                   style={styles.commentsContainer}
                   hitSlop={{ top: 17, bottom: 17, left: 10, right: 10 }}
-                  onPress={() => props.onlikeCountPress(props.comment)}
+                  onPress={() => props.onLikeCountPress(props.comment)}
                 >
                   <theme.Icon name="like" size={15} color={theme.colors.grey} />
                   <Text style={styles.commentsText}>{props.comment.likes.length}</Text>
@@ -160,7 +160,7 @@ Comment.propTypes = {
   onAction: PropTypes.func.isRequired,
   currentUser: PropTypes.object.isRequired,
   onReplyListPress: PropTypes.func.isRequired,
-  onlikeCountPress: PropTypes.func.isRequired
+  onLikeCountPress: PropTypes.func.isRequired
 };
 
 Comment.EDIT = 'Comment.edit';
@@ -174,6 +174,6 @@ export default connect(
   {
     onAction: HomeActions.actionStarted,
     onReplyListPress: HomeActions.openReplyList,
-    onlikeCountPress: HomeActions.openlikeList
+    onLikeCountPress: HomeActions.openlikeList
   }
 )(Comment);

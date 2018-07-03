@@ -94,15 +94,15 @@ export function* replyToComment({ text, comment }) {
 }
 
 export function* togglePostlike({ post }) {
-  yield put(ApiActions.directCall(PostRepository.togglePostlike({ post }), { commit: Types.POST_RETRIEVED }));
+  yield put(ApiActions.directCall(PostRepository.togglePostLike({ post }), { commit: Types.POST_RETRIEVED }));
 }
 
 export function* toggleCommentlike({ comment }) {
-  yield put(ApiActions.directCall(PostRepository.toggleCommentlike({ comment }), { commit: Types.POST_RETRIEVED }));
+  yield put(ApiActions.directCall(PostRepository.toggleCommentLike({ comment }), { commit: Types.POST_RETRIEVED }));
 }
 
-export function* toggleReplylike({ reply }) {
-  yield put(ApiActions.directCall(PostRepository.toggleReplylike({ reply }), { commit: Types.POST_RETRIEVED }));
+export function* toggleReplyLike({ reply }) {
+  yield put(ApiActions.directCall(PostRepository.toggleReplyLike({ reply }), { commit: Types.POST_RETRIEVED }));
 }
 
 export function* submitNewPost({ text }) {

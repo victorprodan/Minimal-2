@@ -46,7 +46,7 @@ export default WrappedComponent =>
                   comment={comment}
                   onReply={() => props.onAction('Comment.reply', comment)}
                   onlike={() => props.onCommentlike(comment)}
-                  onReplylike={props.onReplylike}
+                  onReplyLike={props.onReplyLike}
                   onProfilePress={props.onPostProfilePress}
                 />
               ))}

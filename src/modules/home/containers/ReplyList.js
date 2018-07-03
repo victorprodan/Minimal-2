@@ -12,7 +12,7 @@ export default connect(
     onAction: HomeActions.actionStarted,
     onProfilePress: HomeActions.openPostProfile,
     onRefreshPostDetails: HomeActions.refreshPostDetails,
-    onReplylike: HomeActions.toggleReplylike,
-    onlikeCountPress: HomeActions.openlikeList
+    onReplyLike: HomeActions.toggleReplyLike,
+    onLikeCountPress: HomeActions.openLikeList
   }
 )(ReplyList);

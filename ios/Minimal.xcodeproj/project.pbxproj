@@ -13,6 +13,12 @@
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
 		00E356F31AD99517003FC87E /* MinimalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MinimalTests.m */; };
+		093E07C35EC14EB790BE4ED3 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DF428F9F4DB04B1D8688660F /* Roboto-ThinItalic.ttf */; };
+		0BE2D7827FD5447B9C441A66 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C519CC27C88D44A3B99A2593 /* Roboto-Light.ttf */; };
+		0CF07C28F0EC4672B45A01CA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F179AA9CC51D48F6832BA4E4 /* Roboto-Bold.ttf */; };
+		0D2BD9EE932743BC9BA8E7F5 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7188D86E19C34EBC8D995820 /* Roboto-LightItalic.ttf */; };
+		0EBC161904904A61BC230513 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 103BE8D6C52E444EAF317680 /* Roboto-Thin.ttf */; };
+		12337815264C4D429FCCF1D6 /* libRNCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E71E7E77977349C492CCA7F4 /* libRNCamera.a */; };
 		133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78C398B91ACF4ADC00677621 /* libRCTLinking.a */; };
 		139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139105C11AF99BAD00B5F7CC /* libRCTSettings.a */; };
 		139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 139FDEF41B06529B00C62182 /* libRCTWebSocket.a */; };
@@ -22,6 +28,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		1D941DFD23DA43518406429B /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90B0E54D8E234491BF6897BD /* Roboto-MediumItalic.ttf */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -35,9 +42,18 @@
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* MinimalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* MinimalTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
+		5730F03E20EC210F001CC0ED /* PushwooshInboxUI.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5730F03D20EC210F001CC0ED /* PushwooshInboxUI.a */; };
+		5A980A18B2AB4674B8545476 /* fontello.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B5A552E3857E4126A49A665C /* fontello.ttf */; };
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
+		79677B1F660545FB8682D87F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7496354BCC3348DEA16867A5 /* Roboto-Medium.ttf */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
+		83D80FE6E0414FFDAA62207F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C2CFD0F1858E4E7E8AD275F0 /* Roboto-BoldItalic.ttf */; };
+		A438FDA2DD7C495E9B684613 /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E19BB734BBC749F9A94D1A2A /* Roboto-Black.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
+		ADF2BC24FA2946B9A4BDDFC8 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01F557B3023C4C0BAA478EAC /* Roboto-Regular.ttf */; };
+		B013A3ECD79943BB973945F8 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E4D908E0AAB8452883B0A7AC /* Roboto-BlackItalic.ttf */; };
+		BC1DEAAB8373459688036365 /* libRNFetchBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E1758D62A1B4F7B88305E94 /* libRNFetchBlob.a */; };
+		DA47B3F9FBDB47C1BD4F8778 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BB60CFCE8F3478190F171DA /* Roboto-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +295,27 @@
 			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
 			remoteInfo = "jschelpers-tvOS";
 		};
+		5730EFFD20EC1F44001CC0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 97603EBDD32D4EA6B5FF81FC /* RNCamera.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4107012F1ACB723B00C6AA39;
+			remoteInfo = RNCamera;
+		};
+		5730F03520EC1FB7001CC0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D58744BAFE14713A13993E2 /* RNFetchBlob.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A15C300E1CD25C330074CB35;
+			remoteInfo = RNFetchBlob;
+		};
+		5730F03B20EC20FA001CC0ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5730F03720EC20FA001CC0ED /* PushwooshPlugin.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 46D37B321D12BB4900D5EC47;
+			remoteInfo = PushwooshPlugin;
+		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -326,6 +363,8 @@
 		00E356EE1AD99517003FC87E /* MinimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinimalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MinimalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinimalTests.m; sourceTree = "<group>"; };
+		01F557B3023C4C0BAA478EAC /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/theme/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		103BE8D6C52E444EAF317680 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Thin.ttf"; path = "../src/theme/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* Minimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Minimal.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -336,13 +375,30 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Minimal/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Minimal/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		1E1758D62A1B4F7B88305E94 /* libRNFetchBlob.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFetchBlob.a; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* Minimal-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minimal-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* Minimal-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Minimal-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5730F03720EC20FA001CC0ED /* PushwooshPlugin.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PushwooshPlugin.xcodeproj; path = "../node_modules/pushwoosh-react-native-plugin/src/ios/PushwooshPlugin.xcodeproj"; sourceTree = "<group>"; };
+		5730F03D20EC210F001CC0ED /* PushwooshInboxUI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = PushwooshInboxUI.a; path = "../node_modules/pushwoosh-react-native-plugin/src/ios/PushwooshInboxUI.a"; sourceTree = "<group>"; };
+		5D58744BAFE14713A13993E2 /* RNFetchBlob.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNFetchBlob.xcodeproj; path = "../node_modules/react-native-fetch-blob/ios/RNFetchBlob.xcodeproj"; sourceTree = "<group>"; };
 		5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTAnimation.xcodeproj; path = "../node_modules/react-native/Libraries/NativeAnimation/RCTAnimation.xcodeproj"; sourceTree = "<group>"; };
+		7188D86E19C34EBC8D995820 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-LightItalic.ttf"; path = "../src/theme/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		7496354BCC3348DEA16867A5 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Medium.ttf"; path = "../src/theme/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		90B0E54D8E234491BF6897BD /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-MediumItalic.ttf"; path = "../src/theme/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		97603EBDD32D4EA6B5FF81FC /* RNCamera.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCamera.xcodeproj; path = "../node_modules/react-native-camera/ios/RNCamera.xcodeproj"; sourceTree = "<group>"; };
+		9BB60CFCE8F3478190F171DA /* Roboto-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Italic.ttf"; path = "../src/theme/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
+		B5A552E3857E4126A49A665C /* fontello.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = fontello.ttf; path = ../src/theme/fonts/fontello.ttf; sourceTree = "<group>"; };
+		C2CFD0F1858E4E7E8AD275F0 /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BoldItalic.ttf"; path = "../src/theme/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C519CC27C88D44A3B99A2593 /* Roboto-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Light.ttf"; path = "../src/theme/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		DF428F9F4DB04B1D8688660F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-ThinItalic.ttf"; path = "../src/theme/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		E19BB734BBC749F9A94D1A2A /* Roboto-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Black.ttf"; path = "../src/theme/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		E4D908E0AAB8452883B0A7AC /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-BlackItalic.ttf"; path = "../src/theme/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		E71E7E77977349C492CCA7F4 /* libRNCamera.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCamera.a; sourceTree = "<group>"; };
+		F179AA9CC51D48F6832BA4E4 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Bold.ttf"; path = "../src/theme/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +427,9 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
+				5730F03E20EC210F001CC0ED /* PushwooshInboxUI.a in Frameworks */,
+				12337815264C4D429FCCF1D6 /* libRNCamera.a in Frameworks */,
+				BC1DEAAB8373459688036365 /* libRNFetchBlob.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,12 +575,67 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		19C4F8A180D94408AED4195A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B5A552E3857E4126A49A665C /* fontello.ttf */,
+				E19BB734BBC749F9A94D1A2A /* Roboto-Black.ttf */,
+				E4D908E0AAB8452883B0A7AC /* Roboto-BlackItalic.ttf */,
+				F179AA9CC51D48F6832BA4E4 /* Roboto-Bold.ttf */,
+				C2CFD0F1858E4E7E8AD275F0 /* Roboto-BoldItalic.ttf */,
+				9BB60CFCE8F3478190F171DA /* Roboto-Italic.ttf */,
+				C519CC27C88D44A3B99A2593 /* Roboto-Light.ttf */,
+				7188D86E19C34EBC8D995820 /* Roboto-LightItalic.ttf */,
+				7496354BCC3348DEA16867A5 /* Roboto-Medium.ttf */,
+				90B0E54D8E234491BF6897BD /* Roboto-MediumItalic.ttf */,
+				01F557B3023C4C0BAA478EAC /* Roboto-Regular.ttf */,
+				103BE8D6C52E444EAF317680 /* Roboto-Thin.ttf */,
+				DF428F9F4DB04B1D8688660F /* Roboto-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5730F03D20EC210F001CC0ED /* PushwooshInboxUI.a */,
+				5730F03720EC20FA001CC0ED /* PushwooshPlugin.xcodeproj */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5730EFD420EC1F43001CC0ED /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				E71E7E77977349C492CCA7F4 /* libRNCamera.a */,
+				1E1758D62A1B4F7B88305E94 /* libRNFetchBlob.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		5730EFFA20EC1F44001CC0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5730EFFE20EC1F44001CC0ED /* libRNCamera.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5730F00C20EC1FB7001CC0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5730F03620EC1FB7001CC0ED /* libRNFetchBlob.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5730F03820EC20FA001CC0ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5730F03C20EC20FA001CC0ED /* libPushwooshPlugin.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		5E91572E1DD0AC6500FF2AA8 /* Products */ = {
@@ -557,6 +671,8 @@
 				832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */,
 				00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */,
 				139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */,
+				97603EBDD32D4EA6B5FF81FC /* RNCamera.xcodeproj */,
+				5D58744BAFE14713A13993E2 /* RNFetchBlob.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -578,6 +694,8 @@
 				00E356EF1AD99517003FC87E /* MinimalTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				19C4F8A180D94408AED4195A /* Resources */,
+				5730EFD420EC1F43001CC0ED /* Recovered References */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -685,12 +803,15 @@
 		83CBB9F71A601CBA00E9B192 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0610;
+				LastUpgradeCheck = 610;
 				ORGANIZATIONNAME = Facebook;
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = DA8XN57HH5;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -715,6 +836,10 @@
 			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
+				{
+					ProductGroup = 5730F03820EC20FA001CC0ED /* Products */;
+					ProjectRef = 5730F03720EC20FA001CC0ED /* PushwooshPlugin.xcodeproj */;
+				},
 				{
 					ProductGroup = 00C302A81ABCB8CE00DB3ED1 /* Products */;
 					ProjectRef = 00C302A71ABCB8CE00DB3ED1 /* RCTActionSheet.xcodeproj */;
@@ -762,6 +887,14 @@
 				{
 					ProductGroup = 146834001AC3E56700842450 /* Products */;
 					ProjectRef = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+				},
+				{
+					ProductGroup = 5730EFFA20EC1F44001CC0ED /* Products */;
+					ProjectRef = 97603EBDD32D4EA6B5FF81FC /* RNCamera.xcodeproj */;
+				},
+				{
+					ProductGroup = 5730F00C20EC1FB7001CC0ED /* Products */;
+					ProjectRef = 5D58744BAFE14713A13993E2 /* RNFetchBlob.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -999,6 +1132,27 @@
 			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		5730EFFE20EC1F44001CC0ED /* libRNCamera.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNCamera.a;
+			remoteRef = 5730EFFD20EC1F44001CC0ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5730F03620EC1FB7001CC0ED /* libRNFetchBlob.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNFetchBlob.a;
+			remoteRef = 5730F03520EC1FB7001CC0ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5730F03C20EC20FA001CC0ED /* libPushwooshPlugin.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPushwooshPlugin.a;
+			remoteRef = 5730F03B20EC20FA001CC0ED /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1050,6 +1204,19 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				5A980A18B2AB4674B8545476 /* fontello.ttf in Resources */,
+				A438FDA2DD7C495E9B684613 /* Roboto-Black.ttf in Resources */,
+				B013A3ECD79943BB973945F8 /* Roboto-BlackItalic.ttf in Resources */,
+				0CF07C28F0EC4672B45A01CA /* Roboto-Bold.ttf in Resources */,
+				83D80FE6E0414FFDAA62207F /* Roboto-BoldItalic.ttf in Resources */,
+				DA47B3F9FBDB47C1BD4F8778 /* Roboto-Italic.ttf in Resources */,
+				0BE2D7827FD5447B9C441A66 /* Roboto-Light.ttf in Resources */,
+				0D2BD9EE932743BC9BA8E7F5 /* Roboto-LightItalic.ttf in Resources */,
+				79677B1F660545FB8682D87F /* Roboto-Medium.ttf in Resources */,
+				1D941DFD23DA43518406429B /* Roboto-MediumItalic.ttf in Resources */,
+				ADF2BC24FA2946B9A4BDDFC8 /* Roboto-Regular.ttf in Resources */,
+				0EBC161904904A61BC230513 /* Roboto-Thin.ttf in Resources */,
+				093E07C35EC14EB790BE4ED3 /* Roboto-ThinItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1172,9 +1339,19 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = MinimalTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1189,9 +1366,19 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = MinimalTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1207,6 +1394,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = DA8XN57HH5;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = Minimal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1224,6 +1417,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DA8XN57HH5;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = Minimal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -1248,8 +1447,18 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "Minimal-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1274,8 +1483,18 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "Minimal-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1299,8 +1518,18 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "Minimal-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",
@@ -1324,8 +1553,18 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-camera/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-fetch-blob/ios/**",
+				);
 				INFOPLIST_FILE = "Minimal-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-lc++",

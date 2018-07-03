@@ -62,15 +62,15 @@ export default {
     return Api.post(`/posts/${reply.comment.post.id}/comments/${reply.comment.id}/comment_replies/${reply.id}/report`);
   },
 
-  togglePostlike({ post }) {
+  togglePostLike({ post }) {
     return Api.post(`/posts/${post.id}/like`, { data: {} });
   },
 
-  toggleCommentlike({ comment }) {
+  toggleCommentLike({ comment }) {
     return Api.post(`/posts/${comment.post.id}/comments/${comment.id}/like`, { data: {} });
   },
 
-  toggleReplylike({ reply }) {
+  toggleReplyLike({ reply }) {
     return Api.post(`/posts/${reply.comment.post.id}/comments/${reply.comment.id}/comment_replies/${reply.id}/like`, {
       data: {}
     });

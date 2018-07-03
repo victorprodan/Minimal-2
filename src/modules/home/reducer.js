@@ -27,9 +27,9 @@ export const { Types, Creators } = createActions(
     userUpdated: ['payload'],
 
     // ActionBar interactions
-    togglePostlike: ['post'],
-    toggleCommentlike: ['comment'],
-    toggleReplylike: ['reply'],
+    togglePostLike: ['post'],
+    toggleCommentLike: ['comment'],
+    toggleReplyLike: ['reply'],
     actionStarted: ['action', 'object'],
     openLikeList: ['object'],
 

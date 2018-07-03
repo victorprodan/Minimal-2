@@ -8,7 +8,7 @@ export default connect(
   }),
   {
     onCommentReply: HomeActions.replyToComment,
-    onCommentlike: HomeActions.toggleCommentlike,
-    onReplylike: HomeActions.toggleReplylike
+    onCommentlike: HomeActions.toggleCommentLike,
+    onReplyLike: HomeActions.toggleReplyLike
   }
 )(PostDetails);

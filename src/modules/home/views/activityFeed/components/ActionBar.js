@@ -98,7 +98,7 @@ export default connect(
     currentUser: state.data.user
   }),
   {
-    onLike: HomeActions.togglePostlike,
+    onLike: HomeActions.togglePostLike,
     onAction: HomeActions.actionStarted
   }
 )(ActionBar);

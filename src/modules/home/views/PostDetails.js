@@ -33,7 +33,7 @@ class PostDetails extends React.PureComponent {
         post={post}
         onCommentReply={this.props.onCommentReply}
         onCommentlike={this.props.onCommentlike}
-        onReplylike={this.props.onReplylike}
+        onReplyLike={this.props.onReplyLike}
       />
     );
   }
@@ -47,7 +47,7 @@ PostDetails.propTypes = {
   post: PropTypes.object.isRequired,
   onCommentReply: PropTypes.func.isRequired,
   onCommentlike: PropTypes.func.isRequired,
-  onReplylike: PropTypes.func.isRequired
+  onReplyLike: PropTypes.func.isRequired
 };
 
 export default PostDetails;
